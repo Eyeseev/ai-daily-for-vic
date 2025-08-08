@@ -1,0 +1,146 @@
+{
+  "updatedAt": "2025-08-08T05:22:17.173Z",
+  "am": [
+    {
+      "title": "OpenAI gives some employees a ‘special’ multimillion-dollar bonus",
+      "source": "The Verge – AI",
+      "summary": "The day before the launch of GPT-5, OpenAI CEO Sam Altman surprised employees with a message in the company's Slack. \"As we mentioned a few weeks ago, we have been looking at comp for our technical teams given the movement in the market,\" wrote Altman, according to a copy of the message that was shared with me. He announced that OpenAI would give a \"special one-time award\" to researchers and software engineers in a handful of orgs, including applied engineering, scaling, and safety. \"We very much intend to keep increasing comp as we keep doing better and better as a company,\" he wrote. \"But we wanted to be transparent about this one since … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/command-line-newsletter/756561/openai-employees-bonus-sam-altman-ai-talent-wars",
+      "publishedAt": "2025-08-08T04:23:15.000Z"
+    },
+    {
+      "title": "ChatGPT users dismayed as OpenAI pulls popular models GPT-4o, o3 and more — enterprise API remains (for now)",
+      "source": "VentureBeat – AI",
+      "summary": "OpenAI has announced GPT-5 will replace all models on ChatGPT. Many users are mourning the workhorse model.",
+      "link": "https://venturebeat.com/ai/chatgpt-users-dismayed-as-openai-pulls-popular-models-gpt-4o-o3-and-more-enterprise-api-remains-for-now/",
+      "publishedAt": "2025-08-08T00:45:03.000Z"
+    },
+    {
+      "title": "Black Hat 2025: Why your AI tools are becoming the next insider threat",
+      "source": "VentureBeat – AI",
+      "summary": "Black Hat 2025 delivered performance metrics from beta programs and agentic AI deployments, proving results are being delivered over hype.",
+      "link": "https://venturebeat.com/security/black-hat-2025-how-agentic-ai-is-finally-delivering-real-value/",
+      "publishedAt": "2025-08-07T23:35:56.000Z"
+    },
+    {
+      "title": "OpenAI gets caught vibe graphing",
+      "source": "The Verge – AI",
+      "summary": "Something’s off with that chart on the left. During its big GPT-5 livestream on Thursday, OpenAI showed off a few charts that made the model seem quite impressive — but if you look closely, some graphs were a little bit off. In one, ironically showing how well GPT-5 does in “deception evals across models,” the scale is all over the place. For “coding deception,” for example, the chart shown onstage says GPT-5 with thinking apparently gets a 50.0 percent deception rate, but that’s compared to OpenAI’s smaller 47.4 percent o3 score which somehow has a larger bar. OpenAI appears to have accurate numbers for this chart in its GPT-5 blog post, however, where GPT-5’s deception rate is labeled as 16.5 percent. who's making these graphs pic.twitter.com/Zt6yhZuUoo — Shrey Kothari (@shreyk0) August 7, 2025 With this chart, OpenAI showed onstage that one of GPT-5’s scores is lower than o3’s but is shown with a bigger bar. In this same chart, o3 and GPT-4o’s scores are different but shown with equally-sized bars. It was bad enough that CEO Sam Altman commented on it, calling it a “mega chart screwup,” though he noted that a correct version is in OpenAI’s blog post. An OpenAI marketing staffer also apologized, saying, “We fixed the chart in the blog guys, apologies for the unintentional chart crime.” this screenshot from GPT-5 livestream has to be among the worst chart crimes of the century pic.twitter.com/HXsK2CWCon — Ege Erdil (@EgeErdil2) August 7, 2025 OpenAI didn’t immediately respond to a request for comment. And while it’s unclear if OpenAI used GPT-5 to actually make the charts, it’s still not a great look for the company on its big launch day — especially when it is touting the “significant advances in reducing hallucinations” with its new model.",
+      "link": "https://www.theverge.com/news/756444/openai-gpt-5-vibe-graphing-chart-crime",
+      "publishedAt": "2025-08-07T21:33:57.000Z"
+    },
+    {
+      "title": "The Browser Company’s AI browser now has a $20 subscription",
+      "source": "The Verge – AI",
+      "summary": "The Browser Company — the makers of the Arc browser — just launched a $20 per month subscription to its new AI-powered web browser, Dia, as reported earlier by TechCrunch. The new Dia Pro subscription comes with unlimited access to the browser’s chat feature, which lets you ask questions about the content in your tabs. People who use Dia for free will still have access to the same features the browser launched with, including the ability to interact with the browser’s AI chatbot and create custom skills. But free users might run into some limits if they frequently use Dia’s AI chat feature. The Browser Company hasn’t carved out specific limits for non-subscribers, but CEO Josh Miller told The New York Times last month that “the browser will remain free for those who use the A.I. tool only a few times a week.” Miller also hinted at rolling out additional subscription tiers, ranging from $5 to hundreds of dollars per month. The Browser Company first announced the development of Dia late last year before launching it in beta in June. Over the past several months, Google and Microsoft have begun knitting AI more tightly into their browsers, while the AI search startup Perplexity has released an early access version of its AI browser Comet. Rumors also suggest that OpenAI is getting ready to release an AI web browser of its own.",
+      "link": "https://www.theverge.com/news/756427/browser-company-dia-pro-ai-pricing",
+      "publishedAt": "2025-08-07T21:30:34.000Z"
+    },
+    {
+      "title": "The 6 biggest changes coming to ChatGPT",
+      "source": "The Verge – AI",
+      "summary": "GPT-5 has finally arrived. Along with the announcement of the highly anticipated AI model, OpenAI also previewed several updates coming to ChatGPT, ranging from visual changes to improvements to the chatbot’s performance. Here’s a rundown of all of the changes you can expect to see in ChatGPT. Say goodbye to the model picker With the rollout of GPT-5, OpenAI is getting rid of the model picker and retiring many of its older models, including GPT-4o, GPT-4.1, and GPT-4.5. ChatGPT now runs on GPT-5 by default, and has a “single auto-switching system” that combines its previous models into a “faster, smarter model,” theoretically eliminating the need to swap between models for different purposes. However, ChatGPT Plus, Pro, and Team users can still use a model picker that allows them to switch between GPT-5 or GPT-5 Thinking. Pro and Team users will also get access to GPT-Thinking Pro. OpenAI gives ChatGPT “personalities” One of the biggest updates coming to ChatGPT is the ability to select from four new “personalities” for text-based responses. Here’s how OpenAI describes each of them: Cynic: Sarcastic and dry, delivers blunt help with wit. Often teases, but provides direct, practical answers when it matters. Robot: Precise, efficient, and emotionless, delivering direct answers without extra words. Listener: Warm and laid-back, reflecting your thoughts back with calm clarity and light wit. Nerd: Playful and curious, explaining concepts clearly while celebrating knowledge and discovery. These new personalities sound like they might be fun to play around with. But if you’re not a fan, you can always switch back to ChatGPT’s “default” style. Better vibe coding capabilities Vibe coding, or the process of having AI generate code based on natural language prompts, just got an upgrade on ChatGPT. OpenAI says GPT-5 is even better at processing complex and descriptive prompts when asking it to create an app or website. You can then see — and interact — with a preview of what the AI chatbot has built by opening Canvas. More app customization OpenAI is rolling out new ways to customize ChatGPT’s interface. With this update, you can set an accent color that will change the appearance of your conversation bubbles, voice button, and highlighted text. To do this on the web, click your profile icon, select Settings > General. From there, select an option from within the Accent color drop-down. You can do the same thing on mobile by tapping your profile picture, heading to Personalization, and tapping Color Scheme. Advanced voice mode can “adapt” to you ChatGPT’s advanced voice mode, which allows for more natural-sounding spoken conversations, is getting an update for paid users that will make it better at understanding instructions, as well as allow subscribers to tweak its speaking style. OpenAI also announced that it’s retiring standard voice mode, but it’s offering “near-unlimited” use of advanced voice mode for paid users, and bringing “hours” of extra usage to free users in exchange. Advanced voice mode now works with custom GPTs, too. Easily connect your Gmail and Google Calendar Lastly, OpenAI is making it easier to link your Gmail account and Google Calendar to ChatGPT. As explained in a demo, ChatGPT will now ask you to connect your Gmail or Calendar when you enter a prompt, such as “help me plan my schedule tomorrow.” Once you link your account, ChatGPT will draw from your schedule and your emails to plan out your day, notify you about missed emails, and more. The ability to connect these accounts is coming to Pro users next week, “with other tiers coming next.”",
+      "link": "https://www.theverge.com/news/756342/openai-chatgpt-gpt-5-update-biggest-changes",
+      "publishedAt": "2025-08-07T19:58:01.000Z"
+    },
+    {
+      "title": "Microsoft brings GPT-5 to Copilot with new smart mode",
+      "source": "The Verge – AI",
+      "summary": "OpenAI officially launched its new GPT-5 models today, and Microsoft is now bringing GPT-5 to Copilot, Microsoft 365 Copilot, Azure AI Foundry, GitHub Copilot, and more. It’s part of a big simultaneous release of GPT-5 that will show up in Copilot as the new smart mode that I detailed in Notepad last month. The new smart mode in Copilot allows the AI assistant to switch models for you to use deeper reasoning or quickly respond based on the task. Much like how OpenAI is making GPT-5 available to free users of ChatGPT, Copilot will also have free access to GPT-5. Microsoft 365 Copilot users will also get access to GPT-5 today. “With GPT-5, Microsoft 365 Copilot is better at reasoning through complex questions, staying on track in longer conversations and understanding the user’s context,” explains Microsoft in a blog post. Copilot Studio will also get access to GPT-5 as part of today’s releases. GitHub is also bringing GPT-5 to all paid GitHub Copilot plans today, allowing developers to try out the code writing improvements to OpenAI’s latest model. OpenAI’s new GPT-5 model comes in four different versions, and has big improvements in reasoning and code quality. GPT-5 is designed for logic and multi-step tasks, while GPT-5-chat is tuned for enterprise applications with multimodal context-aware conversations. Finally, Microsoft is also making GPT-5 available through Azure AI Foundry, so developers can utilize it in AI-powered apps. Developers will be able to use the model router in Azure AI Foundry “to ensure the right model is used” for the task or query.",
+      "link": "https://www.theverge.com/news/753984/microsoft-copilot-gpt-5-model-update",
+      "publishedAt": "2025-08-07T17:20:06.000Z"
+    },
+    {
+      "title": "OpenAI launches GPT-5, nano, mini and Pro — not AGI, but capable of generating ‘software-on-demand’",
+      "source": "VentureBeat – AI",
+      "summary": "With safer design, more robust reasoning, expanded developer tooling, and broad user access, GPT-5 reflects a maturing AI ecosystem.",
+      "link": "https://venturebeat.com/ai/openai-launches-gpt-5-not-agi-but-capable-of-generating-software-on-demand/",
+      "publishedAt": "2025-08-07T17:01:10.000Z"
+    },
+    {
+      "title": "OpenAI Finally Launched GPT-5. Here's Everything You Need to Know",
+      "source": "WIRED",
+      "summary": "OpenAI released GPT-5 on Thursday to both free users of ChatGPT and paying subscribers.",
+      "link": "https://www.wired.com/story/openais-gpt-5-is-here/",
+      "publishedAt": "2025-08-07T17:00:33.000Z"
+    },
+    {
+      "title": "GPT-5 is being released to all ChatGPT users",
+      "source": "The Verge – AI",
+      "summary": "OpenAI is releasing GPT-5, its new flagship model, to all of its ChatGPT users and developers. CEO Sam Altman says GPT-5 is a dramatic leap from OpenAI's previous models. He compares it to \"something that I just don't wanna ever have to go back from,\" like the first iPhone with a Retina display. OpenAI says that GPT-5 is smarter, faster, and less likely to give inaccurate responses. \"GPT-3 sort of felt like talking to a high school student,\" Altman said during a recent press briefing I attended. \"You could ask it a question. Maybe you'd get a right answer, maybe you'd get something crazy. GPT-4 felt like you're talking to a college stude … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/openai/748017/gpt-5-chatgpt-openai-release",
+      "publishedAt": "2025-08-07T17:00:03.000Z"
+    },
+    {
+      "title": "GPT-5 is here. Now what?",
+      "source": "MIT Tech Review",
+      "summary": "At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface—though nonpaying users may need to wait…",
+      "link": "https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/",
+      "publishedAt": "2025-08-07T17:00:00.000Z"
+    },
+    {
+      "title": "Age Verification Is Sweeping Gaming. Is It Ready for the Age of AI Fakes?",
+      "source": "WIRED",
+      "summary": "Discord users are already using video game characters to bypass the UK’s age-check laws. AI deepfakes could make things even more complicated.",
+      "link": "https://www.wired.com/story/age-verification-is-sweeping-gaming-is-it-ready-for-the-age-of-ai-fakes/",
+      "publishedAt": "2025-08-07T16:30:00.000Z"
+    },
+    {
+      "title": "The Download: how AI is improving itself, and hidden greenhouse gases",
+      "source": "MIT Tech Review",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Five ways that AI is learning to improve itself Last week, Mark Zuckerberg declared that Meta aims to achieve smarter-than-human AI. He seems to have a recipe for achieving that goal, and the…",
+      "link": "https://www.technologyreview.com/2025/08/07/1121303/the-download-how-ai-is-improving-itself-and-hidden-greenhouse-gases/",
+      "publishedAt": "2025-08-07T12:10:00.000Z"
+    },
+    {
+      "title": "A Single Poisoned Document Could Leak ‘Secret’ Data Via ChatGPT",
+      "source": "WIRED",
+      "summary": "Security researchers found a weakness in OpenAI’s Connectors, which let you hook up ChatGPT to other services, that allowed them to extract data from a Google Drive without any user interaction.",
+      "link": "https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/",
+      "publishedAt": "2025-08-06T23:30:00.000Z"
+    },
+    {
+      "title": "New ‘persona vectors’ from Anthropic let you decode and direct an LLM’s personality",
+      "source": "VentureBeat – AI",
+      "summary": "A new study from Anthropic introduces \"persona vectors,\" a technique for developers to monitor, predict and control unwanted LLM behaviors.",
+      "link": "https://venturebeat.com/ai/new-persona-vectors-from-anthropic-let-you-decode-and-direct-an-llms-personality/",
+      "publishedAt": "2025-08-06T22:11:20.000Z"
+    },
+    {
+      "title": "The initial reactions to OpenAI’s landmark open source gpt-oss models are highly varied and mixed",
+      "source": "VentureBeat – AI",
+      "summary": "The verdict, for now, is split. OpenAI’s gpt-oss models are a landmark in terms of licensing and accessibility.",
+      "link": "https://venturebeat.com/ai/the-initial-reactions-to-openais-landmark-open-source-gpt-oss-models-are-highly-varied-and-mixed/",
+      "publishedAt": "2025-08-06T20:24:07.000Z"
+    },
+    {
+      "title": "How a ‘vibe working’ approach at Genspark tripled ARR growth and supported a barrage of new products and features in just weeks",
+      "source": "VentureBeat – AI",
+      "summary": "AI-native working allows Genspark to work at “gen speed” and release new products and features nearly every week.",
+      "link": "https://venturebeat.com/ai/how-a-vibe-working-approach-at-genspark-tripled-arr-growth-and-supported-a-barrage-of-new-products-and-features-in-just-weeks/",
+      "publishedAt": "2025-08-06T19:41:34.000Z"
+    },
+    {
+      "title": "Five ways that AI is learning to improve itself",
+      "source": "MIT Tech Review",
+      "summary": "Last week, Mark Zuckerberg declared that Meta is aiming to achieve smarter-than-human AI. He seems to have a recipe for achieving that goal, and the first ingredient is human talent: Zuckerberg has reportedly tried to lure top researchers to Meta Superintelligence Labs with nine-figure offers. The second ingredient is AI itself. Zuckerberg recently said on…",
+      "link": "https://www.technologyreview.com/2025/08/06/1121193/five-ways-that-ai-is-learning-to-improve-itself/",
+      "publishedAt": "2025-08-06T15:14:12.000Z"
+    },
+    {
+      "title": "The Download: OpenAI’s open-weight models, and the future of internet search",
+      "source": "MIT Tech Review",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. OpenAI has finally released open-weight language models The news: OpenAI has finally released its first open-weight large language models since 2019’s GPT-2. Unlike the models available through OpenAI’s web interface, these new open…",
+      "link": "https://www.technologyreview.com/2025/08/06/1121179/the-download-openais-open-weight-models-and-the-future-of-internet-search/",
+      "publishedAt": "2025-08-06T12:10:00.000Z"
+    },
+    {
+      "title": "OpenAI has finally released open-weight language models",
+      "source": "MIT Tech Review",
+      "summary": "OpenAI has finally released its first open-weight large language models since 2019’s GPT-2. These new “gpt-oss” models are available in two different sizes and score similarly to the company’s o3-mini and o4-mini models on several benchmarks. Unlike the models available through OpenAI’s web interface, these new open models can be freely downloaded, run, and even…",
+      "link": "https://www.technologyreview.com/2025/08/05/1121092/openai-has-finally-released-open-weight-language-models/",
+      "publishedAt": "2025-08-05T17:00:00.000Z"
+    }
+  ],
+  "pm": []
+}

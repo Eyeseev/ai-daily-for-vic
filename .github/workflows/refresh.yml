@@ -1,0 +1,30 @@
+name: Refresh News
+
+on:
+  schedule:
+    - cron: '30 11,23 * * *' # 7:30 AM/PM America/New_York (NY=UTC-4/5; set to 11/23 UTC)
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: npm run fetch
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/news.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh news.json"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+
