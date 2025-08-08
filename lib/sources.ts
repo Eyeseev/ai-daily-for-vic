@@ -41,6 +41,37 @@ export const SOURCES: Source[] = [
     homepage: 'https://www.technologyreview.com/',
     rss: 'https://www.technologyreview.com/feed/',
   },
+  // New AI-focused sources added 2025-08-08:
+  {
+    id: 'towards-data-science',
+    name: 'Towards Data Science',
+    homepage: 'https://towardsdatascience.com/',
+    rss: 'https://towardsdatascience.com/feed',
+  },
+  {
+    id: 'ars-technica',
+    name: 'Ars Technica – AI',
+    homepage: 'https://arstechnica.com/tag/artificial-intelligence/',
+    rss: 'https://feeds.arstechnica.com/arstechnica/technology-lab',
+  },
+  {
+    id: 'the-register',
+    name: 'The Register – AI',
+    homepage: 'https://www.theregister.com/tag/ai/',
+    rss: 'https://www.theregister.com/headlines.atom',
+  },
+  {
+    id: 'ai-trends',
+    name: 'AI Trends',
+    homepage: 'https://www.aitrends.com/',
+    rss: 'https://www.aitrends.com/feed/',
+  },
+  {
+    id: 'synced',
+    name: 'Synced',
+    homepage: 'https://syncedreview.com/',
+    rss: 'https://syncedreview.com/feed/',
+  },
 ]
 
 
