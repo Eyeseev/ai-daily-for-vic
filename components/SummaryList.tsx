@@ -107,9 +107,9 @@ export default function SummaryList({ items }: { items: NewsBundle }) {
       <article className="p-4 hover:bg-neutral-900/40 transition-colors">
         <div className="flex items-start justify-between gap-2">
           <h3 className="text-neutral-100 font-medium leading-snug flex-1">
-            <Link href={link} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">
+            <a href={link} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">
               {title}
-            </Link>
+            </a>
           </h3>
           {publishedAt && (
             <TimeDisplay iso={publishedAt} />
@@ -145,14 +145,14 @@ export default function SummaryList({ items }: { items: NewsBundle }) {
           {/* Read more link */}
           {hasMore && (
             <div className="mt-2">
-              <Link 
+              <a 
                 href={link} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-sm text-emerald-400 hover:text-emerald-300 underline-offset-2 hover:underline inline-flex items-center gap-1"
               >
                 Read more →
-              </Link>
+              </a>
             </div>
           )}
         </div>
