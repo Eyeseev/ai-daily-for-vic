@@ -4,6 +4,7 @@ import { DateTime } from 'luxon'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { SOURCES } from '../lib/sources'
+import { stripHtml, sentences } from '../lib/text'
 
 type Item = {
   title: string
@@ -28,23 +29,35 @@ const KEYWORDS = [
   "inference","token","transformer","diffusion"
 ];
 
-// Helper functions for summary processing
-const stripHtml = (html: string) => {
-  if (!html) return "";
-  // Remove HTML tags
-  let cleaned = html.replace(/<[^>]*>/g, " ");
-  // Remove HTML entities
-  cleaned = cleaned.replace(/&[a-zA-Z0-9#]+;/g, " ");
-  // Remove extra whitespace
-  cleaned = cleaned.replace(/\s+/g, " ").trim();
-  return cleaned;
+// Title normalization for deduplication
+const normTitle = (s: string) =>
+  s.toLowerCase()
+    .replace(/&[a-z0-9#]+;/gi, " ")     // entities
+    .replace(/[^a-z0-9 ]+/g, " ")       // punctuation
+    .replace(/\b(the|a|an|with|on|in|for|of|to|and|ai|new)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+// Deduplication by title for same-day articles
+const dedupeSameDayByTitle = (items: Item[]) => {
+  const seen = new Set<string>();
+  return items.filter(a => {
+    const day = new Date(a.publishedAt).toISOString().slice(0,10);
+    const key = `${day}:${normTitle(a.title)}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 };
 
-const makeSummary = (text: string, maxWords = 80) => {
+// Improved summary generation
+const buildSummary = (raw: string): string | undefined => {
+  const text = stripHtml(raw || "");
   if (!text) return undefined;
-  const words = text.split(/\s+/);
-  if (words.length <= maxWords) return text;
-  return words.slice(0, maxWords).join(" ") + "…";
+  const s = sentences(text);
+  // 2-sentence blurb max
+  const blurb = [s[0], s[1]].filter(Boolean).join(" ");
+  return blurb.length ? blurb : undefined;
 };
 
 function isAIItem(title = "", summary = "") {
@@ -99,16 +112,16 @@ async function fetchAll(): Promise<void> {
           (item as any).description ||
           "";
 
-        const cleaned = stripHtml(rawDesc);
-        const summary = cleaned ? makeSummary(cleaned, 80) : undefined;
+        const description = stripHtml(rawDesc);
+        const summary = buildSummary(rawDesc);
 
-        if (!isAIItem(title, cleaned)) continue; // 🚧 filter to AI-only
+        if (!isAIItem(title, description)) continue; // 🚧 filter to AI-only
         
         results.push({
           title: title || '(untitled)',
           source: src.name,
-          summary,
-          description: cleaned || undefined,
+          summary: summary || description || undefined,
+          description: description || undefined,
           link,
           publishedAt,
         });
@@ -119,12 +132,8 @@ async function fetchAll(): Promise<void> {
     }
   }
 
-  const seen = new Set<string>()
-  const deduped = results.filter((r) => {
-    if (seen.has(r.link)) return false
-    seen.add(r.link)
-    return true
-  })
+  // Deduplicate by title for same-day articles
+  const deduped = dedupeSameDayByTitle(results);
 
   deduped.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
   const top = deduped.slice(0, 20)
