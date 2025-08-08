@@ -8,7 +8,8 @@ import { SOURCES } from '../lib/sources'
 type Item = {
   title: string
   source: string
-  summary: string
+  summary?: string
+  description?: string
   link: string
   publishedAt: string
 }
@@ -26,6 +27,25 @@ const KEYWORDS = [
   "mistral","stability ai","rag","vector db","fine-tune","prompt",
   "inference","token","transformer","diffusion"
 ];
+
+// Helper functions for summary processing
+const stripHtml = (html: string) => {
+  if (!html) return "";
+  // Remove HTML tags
+  let cleaned = html.replace(/<[^>]*>/g, " ");
+  // Remove HTML entities
+  cleaned = cleaned.replace(/&[a-zA-Z0-9#]+;/g, " ");
+  // Remove extra whitespace
+  cleaned = cleaned.replace(/\s+/g, " ").trim();
+  return cleaned;
+};
+
+const makeSummary = (text: string, maxWords = 80) => {
+  if (!text) return undefined;
+  const words = text.split(/\s+/);
+  if (words.length <= maxWords) return text;
+  return words.slice(0, maxWords).join(" ") + "…";
+};
 
 function isAIItem(title = "", summary = "") {
   const text = `${title} ${summary}`.toLowerCase();
@@ -70,13 +90,25 @@ async function fetchAll(): Promise<void> {
         const publishedAt = parsed?.isValid ? parsed.toUTC().toISO() : null
         if (!publishedAt) continue;
 
-        const summary = ((item as any).contentSnippet || (item as any).content || (item as any).summary || "").toString().replace(/\s+/g, ' ').trim();
-        if (!isAIItem(title, summary)) continue; // 🚧 filter to AI-only
+        // Extract and process description/content
+        const rawDesc =
+          (item as any).contentSnippet ||
+          (item as any)["content:encoded"] ||
+          (item as any).content ||
+          (item as any).summary ||
+          (item as any).description ||
+          "";
+
+        const cleaned = stripHtml(rawDesc);
+        const summary = cleaned ? makeSummary(cleaned, 80) : undefined;
+
+        if (!isAIItem(title, cleaned)) continue; // 🚧 filter to AI-only
         
         results.push({
           title: title || '(untitled)',
           source: src.name,
           summary,
+          description: cleaned || undefined,
           link,
           publishedAt,
         });

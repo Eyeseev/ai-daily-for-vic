@@ -1,7 +1,8 @@
 export type NewsItem = {
   title: string
   source: string
-  summary: string
+  summary?: string      // <-- add optional
+  description?: string  // <-- optional fallback
   link: string
   publishedAt: string // ISO
 }

@@ -1,6 +1,7 @@
 import { Header } from '@/components/Header'
 import { NewsList } from '@/components/NewsList'
-import { Toggle } from '@/components/Toggle'
+import { HeaderTabs } from '@/components/HeaderTabs'
+import SummaryList from '@/components/SummaryList'
 import { type NewsBundle } from '@/lib/types'
 import { DateTime } from 'luxon'
 import fs from 'node:fs/promises'
@@ -22,35 +23,27 @@ export default async function Page({
   const bundle = await readNews()
   const tz = 'America/New_York'
   const now = DateTime.now().setZone(tz)
-  const view = searchParams?.view === 'summary' ? 'summary' : 'headlines'
+  const view = (searchParams?.view || "headlines").toLowerCase()
 
   return (
     <main className="mx-auto max-w-screen-sm px-4 py-6">
       <Header lastUpdated={bundle.updatedAt} tz={tz} />
-      <div className="mt-3 flex items-center justify-between">
-        <p className="text-sm text-neutral-400">View</p>
-        <Toggle view={view} />
-      </div>
-      {/* No-JS fallback */}
-      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-      <noscript>
-        <div className="mt-2 text-xs text-neutral-400">
-          <a className="underline" href="?view=headlines">Headlines</a>
-          <span className="mx-2">/</span>
-          <a className="underline" href="?view=summary">Summaries</a>
-        </div>
-      </noscript>
-      <section className="mt-6 space-y-10">
-        {(['am', 'pm'] as const).map((slot) => (
-          <div key={slot}>
-            <h2 className="mb-3 text-xs uppercase tracking-widest text-neutral-400">
-              {slot === 'am' ? 'Morning' : 'Evening'} Edition
-              <span className="ml-2 text-neutral-500">(7:30 {slot.toUpperCase()} ET)</span>
-            </h2>
-            <NewsList items={bundle[slot]} view={view} nowISO={now.toISO()!} />
-          </div>
-        ))}
-      </section>
+      <HeaderTabs activeView={view} />
+      {view === "summary" ? (
+        <SummaryList items={bundle} />
+      ) : (
+        <section className="mt-6 space-y-10">
+          {(['am', 'pm'] as const).map((slot) => (
+            <div key={slot}>
+              <h2 className="mb-3 text-xs uppercase tracking-widest text-neutral-400">
+                {slot === 'am' ? 'Morning' : 'Evening'} Edition
+                <span className="ml-2 text-neutral-500">(7:30 {slot.toUpperCase()} ET)</span>
+              </h2>
+              <NewsList items={bundle[slot]} view={view as 'headlines' | 'summary'} nowISO={now.toISO()!} />
+            </div>
+          ))}
+        </section>
+      )}
     </main>
   )
 }

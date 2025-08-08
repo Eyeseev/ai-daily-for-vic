@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-08T14:47:11.790Z",
+  "updatedAt": "2025-08-08T16:40:12.259Z",
   "am": [
     {
       "title": "The Google Finance page is getting an AI makeover",
@@ -142,5 +142,166 @@
       "publishedAt": "2025-08-07T12:30:15.000Z"
     }
   ],
-  "pm": []
+  "pm": [
+    {
+      "title": "Apple Intelligence’s ChatGPT integration will use GPT-5 starting with iOS 26",
+      "source": "The Verge – AI",
+      "summary": "OpenAI just announced its GPT-5 AI model on Thursday, but you won’t be able to use it with Apple Intelligence’s ChatGPT integration until iOS 26, iPadOS 26, and macOS Tahoe 26, Apple confirmed to 9to5Mac. Apple Intelligence can rely on ChatGPT for things like helping answer certain Siri queries or alongside Apple’s Google Lens-like Visual Intelligence feature, but right now, it uses OpenAI’s GPT-4o model. Apple has only publicly said its next major software updates will arrive in the “fall,”…",
+      "description": "OpenAI just announced its GPT-5 AI model on Thursday, but you won’t be able to use it with Apple Intelligence’s ChatGPT integration until iOS 26, iPadOS 26, and macOS Tahoe 26, Apple confirmed to 9to5Mac. Apple Intelligence can rely on ChatGPT for things like helping answer certain Siri queries or alongside Apple’s Google Lens-like Visual Intelligence feature, but right now, it uses OpenAI’s GPT-4o model. Apple has only publicly said its next major software updates will arrive in the “fall,” and they’ll probably launch for everyone next month. But I’ve asked Apple if GPT-5 will be included with the developer and / or public betas of those updates, and if so, when it might be available. GPT-5 was released to all ChatGPT users on Thursday, meaning that you’ll even be able to try it as part of the free tier. OpenAI says that ChatGPT is now used by about 700 million people every week.",
+      "link": "https://www.theverge.com/news/756799/apple-intelligence-openai-chatgpt-gpt-5-ios-26",
+      "publishedAt": "2025-08-08T15:42:02.000Z"
+    },
+    {
+      "title": "'House of the Dragon' Actor's New Horror Game Skewers Hollywood",
+      "source": "WIRED",
+      "summary": "Abubakar Salim’s game Dead Take explores scandals, exploitation, and AI-fueled media manipulation.",
+      "description": "Abubakar Salim’s game Dead Take explores scandals, exploitation, and AI-fueled media manipulation.",
+      "link": "https://www.wired.com/story/house-of-the-dragon-actors-new-horror-game-skewers-hollywood/",
+      "publishedAt": "2025-08-08T15:24:04.000Z"
+    },
+    {
+      "title": "Tesla’s Dojo supercomputer is DOA — now what?",
+      "source": "The Verge – AI",
+      "summary": "On Thursday, Bloomberg reported that Tesla CEO Elon Musk has ordered its Dojo supercomputer project to be disbanded after the project's leader and most of its employees left to join another AI project. The news marked a major setback to the automaker's efforts to develop its own in-house developed supercomputer to train AI models for self-driving cars. And it signaled yet another blow to Tesla's ongoing efforts to retain its top talent. For years, Tesla touted its custom built supercomputer…",
+      "description": "On Thursday, Bloomberg reported that Tesla CEO Elon Musk has ordered its Dojo supercomputer project to be disbanded after the project's leader and most of its employees left to join another AI project. The news marked a major setback to the automaker's efforts to develop its own in-house developed supercomputer to train AI models for self-driving cars. And it signaled yet another blow to Tesla's ongoing efforts to retain its top talent. For years, Tesla touted its custom built supercomputer meant to train machine-learning models for Tesla's Autopilot, Full Self-Driving, and Optimus robots as the thing that will give it the leg up over other … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/tesla/756709/tesla-dojo-ai-talent-exodus-elon-musk",
+      "publishedAt": "2025-08-08T14:48:06.000Z"
+    },
+    {
+      "title": "The Google Finance page is getting an AI makeover",
+      "source": "The Verge – AI",
+      "summary": "Google’s apparent quest to bring AI features across all of its apps has just extended to one of its most mundane: Google Finance. The company announced on Friday that it’s testing a “new, AI-powered Google Finance,” chatbot included. The revamp, which will roll out in the US in the coming weeks, will let you ask finance-related questions of the web app’s built-in chatbot, which will serve up an AI-generated answer alongside relevant links. There are also new charting tools that…",
+      "description": "Google’s apparent quest to bring AI features across all of its apps has just extended to one of its most mundane: Google Finance. The company announced on Friday that it’s testing a “new, AI-powered Google Finance,” chatbot included. The revamp, which will roll out in the US in the coming weeks, will let you ask finance-related questions of the web app’s built-in chatbot, which will serve up an AI-generated answer alongside relevant links. There are also new charting tools that Google says go beyond helping you visualize “simple asset performance” with options to view technical indicators or display candlestick charts. In addition to encompassing a broader range of market data, including from more cryptocurrencies, Google Finance will display an “up-to-the-minute” live news feed that’s supposed to help you keep track of what’s affecting today’s market. But if you’re not a fan of chatting with AI about daily market moves, Google says it will include a toggle allowing you to revert to the classic Google Finance experience.",
+      "link": "https://www.theverge.com/news/756720/google-finance-ai-makeover-chatbot",
+      "publishedAt": "2025-08-08T14:07:16.000Z"
+    },
+    {
+      "title": "The Download: GPT-5 is here, and Intel’s CEO drama",
+      "source": "MIT Tech Review",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. GPT-5 is here. Now what? At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o series of reasoning models, automatically routing user queries…",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. GPT-5 is here. Now what? At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o series of reasoning models, automatically routing user queries…",
+      "link": "https://www.technologyreview.com/2025/08/08/1121330/the-download-gpt-5-is-here-and-intels-ceo-drama/",
+      "publishedAt": "2025-08-08T12:10:00.000Z"
+    },
+    {
+      "title": "Infosec hounds spot prompt injection vuln in Google Gemini apps",
+      "source": "The Register – AI",
+      "summary": "Not a very smart home: crims could hijack smart-home boiler, open and close powered windows and more. Now fixed Black hat A trio of researchers has disclosed a major prompt injection vulnerability in Google's Gemini large language model-powered applications.…",
+      "description": "Not a very smart home: crims could hijack smart-home boiler, open and close powered windows and more. Now fixed Black hat A trio of researchers has disclosed a major prompt injection vulnerability in Google's Gemini large language model-powered applications.…",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2025/08/08/infosec_hounds_spot_prompt_injection/",
+      "publishedAt": "2025-08-08T11:30:11.000Z"
+    },
+    {
+      "title": "Microsoft’s new Copilot 3D feature is great for Ikea, bad for my dog",
+      "source": "The Verge – AI",
+      "summary": "Is that a back penis? While Microsoft was busy updating Copilot yesterday with OpenAI's new GPT-5 model, it also quietly launched Copilot 3D. It's a free-to-use feature that can transform a regular 2D image into a 3D model that can then be used in game creation, animation, 3D printing, VR / AR, and much more. Copilot 3D just needs a good clean 2D image, and you don't even need to use any text prompts. Microsoft recommends using images with a…",
+      "description": "Is that a back penis? While Microsoft was busy updating Copilot yesterday with OpenAI's new GPT-5 model, it also quietly launched Copilot 3D. It's a free-to-use feature that can transform a regular 2D image into a 3D model that can then be used in game creation, animation, 3D printing, VR / AR, and much more. Copilot 3D just needs a good clean 2D image, and you don't even need to use any text prompts. Microsoft recommends using images with a clear background or a strong separation between the subject and the background. I've been testing Copilot 3D today and found that it works better when an image has even lighting and a sense of depth, to help the AI model bet … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/hands-on/756587/microsoft-copilot-3d-feature-hands-on",
+      "publishedAt": "2025-08-08T11:00:26.000Z"
+    },
+    {
+      "title": "OpenAI gives some employees a ‘special’ multimillion-dollar bonus",
+      "source": "The Verge – AI",
+      "summary": "The day before the launch of GPT-5, OpenAI CEO Sam Altman surprised employees with a message in the company's Slack. \"As we mentioned a few weeks ago, we have been looking at comp for our technical teams given the movement in the market,\" wrote Altman, according to a copy of the message that was shared with me. He announced that OpenAI would give a \"special one-time award\" to researchers and software engineers in a handful of orgs, including applied engineering,…",
+      "description": "The day before the launch of GPT-5, OpenAI CEO Sam Altman surprised employees with a message in the company's Slack. \"As we mentioned a few weeks ago, we have been looking at comp for our technical teams given the movement in the market,\" wrote Altman, according to a copy of the message that was shared with me. He announced that OpenAI would give a \"special one-time award\" to researchers and software engineers in a handful of orgs, including applied engineering, scaling, and safety. \"We very much intend to keep increasing comp as we keep doing better and better as a company,\" he wrote. \"But we wanted to be transparent about this one since … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/command-line-newsletter/756561/openai-employees-bonus-sam-altman-ai-talent-wars",
+      "publishedAt": "2025-08-08T04:23:15.000Z"
+    },
+    {
+      "title": "$500 billion Stargate AI infrastructure project struggles to get off the drawing board",
+      "source": "The Register – AI",
+      "summary": "Backer SoftBank isn't fussed, is excited that Arm will provide half of new cloudy CPUs this year The $500 billion Stargate project that aims to build a network of AI datacenters around the globe is off to a slow start, but its main backer – Japan’s SoftBank – isn’t worried.…",
+      "description": "Backer SoftBank isn't fussed, is excited that Arm will provide half of new cloudy CPUs this year The $500 billion Stargate project that aims to build a network of AI datacenters around the globe is off to a slow start, but its main backer – Japan’s SoftBank – isn’t worried.…",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2025/08/08/stargate_launch_delays/",
+      "publishedAt": "2025-08-08T01:59:14.000Z"
+    },
+    {
+      "title": "ChatGPT users dismayed as OpenAI pulls popular models GPT-4o, o3 and more — enterprise API remains (for now)",
+      "source": "VentureBeat – AI",
+      "summary": "OpenAI has announced GPT-5 will replace all models on ChatGPT. Many users are mourning the workhorse model.",
+      "description": "OpenAI has announced GPT-5 will replace all models on ChatGPT. Many users are mourning the workhorse model.",
+      "link": "https://venturebeat.com/ai/chatgpt-users-dismayed-as-openai-pulls-popular-models-gpt-4o-o3-and-more-enterprise-api-remains-for-now/",
+      "publishedAt": "2025-08-08T00:45:03.000Z"
+    },
+    {
+      "title": "Black Hat 2025: Why your AI tools are becoming the next insider threat",
+      "source": "VentureBeat – AI",
+      "summary": "Black Hat 2025 delivered performance metrics from beta programs and agentic AI deployments, proving results are being delivered over hype.",
+      "description": "Black Hat 2025 delivered performance metrics from beta programs and agentic AI deployments, proving results are being delivered over hype.",
+      "link": "https://venturebeat.com/security/black-hat-2025-how-agentic-ai-is-finally-delivering-real-value/",
+      "publishedAt": "2025-08-07T23:35:56.000Z"
+    },
+    {
+      "title": "OpenAI's GPT-5 is here with up to 80% fewer hallucinations",
+      "source": "The Register – AI",
+      "summary": "That totally makes up for the single-digit benchmark gains, right? OpenAI unveiled its most capable model yet on Thursday with the launch of GPT-5.…",
+      "description": "That totally makes up for the single-digit benchmark gains, right? OpenAI unveiled its most capable model yet on Thursday with the launch of GPT-5.…",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2025/08/07/openai_gpt_5/",
+      "publishedAt": "2025-08-07T22:41:43.000Z"
+    },
+    {
+      "title": "OpenAI gets caught vibe graphing",
+      "source": "The Verge – AI",
+      "summary": "Something’s off with that chart on the left. During its big GPT-5 livestream on Thursday, OpenAI showed off a few charts that made the model seem quite impressive — but if you look closely, some graphs were a little bit off. In one, ironically showing how well GPT-5 does in “deception evals across models,” the scale is all over the place. For “coding deception,” for example, the chart shown onstage says GPT-5 with thinking apparently gets a 50.0 percent deception…",
+      "description": "Something’s off with that chart on the left. During its big GPT-5 livestream on Thursday, OpenAI showed off a few charts that made the model seem quite impressive — but if you look closely, some graphs were a little bit off. In one, ironically showing how well GPT-5 does in “deception evals across models,” the scale is all over the place. For “coding deception,” for example, the chart shown onstage says GPT-5 with thinking apparently gets a 50.0 percent deception rate, but that’s compared to OpenAI’s smaller 47.4 percent o3 score which somehow has a larger bar. OpenAI appears to have accurate numbers for this chart in its GPT-5 blog post, however, where GPT-5’s deception rate is labeled as 16.5 percent. who's making these graphs pic.twitter.com/Zt6yhZuUoo — Shrey Kothari (@shreyk0) August 7, 2025 With this chart, OpenAI showed onstage that one of GPT-5’s scores is lower than o3’s but is shown with a bigger bar. In this same chart, o3 and GPT-4o’s scores are different but shown with equally-sized bars. It was bad enough that CEO Sam Altman commented on it, calling it a “mega chart screwup,” though he noted that a correct version is in OpenAI’s blog post. An OpenAI marketing staffer also apologized, saying, “We fixed the chart in the blog guys, apologies for the unintentional chart crime.” this screenshot from GPT-5 livestream has to be among the worst chart crimes of the century pic.twitter.com/HXsK2CWCon — Ege Erdil (@EgeErdil2) August 7, 2025 OpenAI didn’t immediately respond to a request for comment. And while it’s unclear if OpenAI used GPT-5 to actually make the charts, it’s still not a great look for the company on its big launch day — especially when it is touting the “significant advances in reducing hallucinations” with its new model.",
+      "link": "https://www.theverge.com/news/756444/openai-gpt-5-vibe-graphing-chart-crime",
+      "publishedAt": "2025-08-07T21:33:57.000Z"
+    },
+    {
+      "title": "Agentic AI: On Evaluations",
+      "source": "Towards Data Science",
+      "summary": "Metrics to track for RAG and agents, plus the frameworks that help The post Agentic AI: On Evaluations appeared first on Towards Data Science.",
+      "description": "Metrics to track for RAG and agents, plus the frameworks that help The post Agentic AI: On Evaluations appeared first on Towards Data Science.",
+      "link": "https://towardsdatascience.com/agentic-ai-evaluation-playbook/",
+      "publishedAt": "2025-08-07T18:46:20.000Z"
+    },
+    {
+      "title": "OpenAI launches GPT-5 free to all ChatGPT users",
+      "source": "Ars Technica – AI",
+      "summary": "New model claims fewer confabulations, better coding, and \"safe completions\" approach.",
+      "description": "New model claims fewer confabulations, better coding, and \"safe completions\" approach.",
+      "link": "https://arstechnica.com/ai/2025/08/openai-launches-gpt-5-free-to-all-chatgpt-users/",
+      "publishedAt": "2025-08-07T17:48:57.000Z"
+    },
+    {
+      "title": "Finding Golden Examples: A Smarter Approach to In-Context Learning",
+      "source": "Towards Data Science",
+      "summary": "From random example selection to systematic AuPair generation — how to make your LLM prompts actually work The post Finding Golden Examples: A Smarter Approach to In-Context Learning appeared first on Towards Data Science.",
+      "description": "From random example selection to systematic AuPair generation — how to make your LLM prompts actually work The post Finding Golden Examples: A Smarter Approach to In-Context Learning appeared first on Towards Data Science.",
+      "link": "https://towardsdatascience.com/finding-golden-examples-a-smarter-approach-to-in-context-learning/",
+      "publishedAt": "2025-08-07T17:33:39.000Z"
+    },
+    {
+      "title": "OpenAI launches GPT-5, nano, mini and Pro — not AGI, but capable of generating ‘software-on-demand’",
+      "source": "VentureBeat – AI",
+      "summary": "With safer design, more robust reasoning, expanded developer tooling, and broad user access, GPT-5 reflects a maturing AI ecosystem.",
+      "description": "With safer design, more robust reasoning, expanded developer tooling, and broad user access, GPT-5 reflects a maturing AI ecosystem.",
+      "link": "https://venturebeat.com/ai/openai-launches-gpt-5-not-agi-but-capable-of-generating-software-on-demand/",
+      "publishedAt": "2025-08-07T17:01:10.000Z"
+    },
+    {
+      "title": "OpenAI Finally Launched GPT-5. Here's Everything You Need to Know",
+      "source": "WIRED",
+      "summary": "OpenAI released GPT-5 on Thursday to both free users of ChatGPT and paying subscribers.",
+      "description": "OpenAI released GPT-5 on Thursday to both free users of ChatGPT and paying subscribers.",
+      "link": "https://www.wired.com/story/openais-gpt-5-is-here/",
+      "publishedAt": "2025-08-07T17:00:33.000Z"
+    },
+    {
+      "title": "GPT-5 is here. Now what?",
+      "source": "MIT Tech Review",
+      "summary": "At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface—though nonpaying users may need to wait…",
+      "description": "At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface—though nonpaying users may need to wait…",
+      "link": "https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/",
+      "publishedAt": "2025-08-07T17:00:00.000Z"
+    },
+    {
+      "title": "Age Verification Is Sweeping Gaming. Is It Ready for the Age of AI Fakes?",
+      "source": "WIRED",
+      "summary": "Discord users are already using video game characters to bypass the UK’s age-check laws. AI deepfakes could make things even more complicated.",
+      "description": "Discord users are already using video game characters to bypass the UK’s age-check laws. AI deepfakes could make things even more complicated.",
+      "link": "https://www.wired.com/story/age-verification-is-sweeping-gaming-is-it-ready-for-the-age-of-ai-fakes/",
+      "publishedAt": "2025-08-07T16:30:00.000Z"
+    }
+  ]
 }
